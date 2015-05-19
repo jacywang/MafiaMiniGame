@@ -14,6 +14,11 @@
 		9CA64F651B0A9B1900812F6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA64F641B0A9B1900812F6F /* Images.xcassets */; };
 		9CA64F681B0A9B1900812F6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA64F661B0A9B1900812F6F /* LaunchScreen.xib */; };
 		9CA64F741B0A9B1900812F6F /* MafiaMiniGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA64F731B0A9B1900812F6F /* MafiaMiniGameTests.m */; };
+		9CA64F7F1B0AA1FF00812F6F /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA64F7E1B0AA1FF00812F6F /* Player.m */; };
+		9CA64F881B0AA3A800812F6F /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA64F871B0AA3A800812F6F /* Game.m */; };
+		9CA64F8B1B0AA97A00812F6F /* MafiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA64F8A1B0AA97A00812F6F /* MafiaViewController.m */; };
+		9CA64F8E1B0AA98800812F6F /* SheriffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA64F8D1B0AA98800812F6F /* SheriffViewController.m */; };
+		9CA64F911B0ACCCC00812F6F /* PlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA64F901B0ACCCC00812F6F /* PlayGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		9CA64F6D1B0A9B1900812F6F /* MafiaMiniGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafiaMiniGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA64F721B0A9B1900812F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CA64F731B0A9B1900812F6F /* MafiaMiniGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MafiaMiniGameTests.m; sourceTree = "<group>"; };
+		9CA64F7D1B0AA1FF00812F6F /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9CA64F7E1B0AA1FF00812F6F /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		9CA64F861B0AA3A800812F6F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		9CA64F871B0AA3A800812F6F /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		9CA64F891B0AA97A00812F6F /* MafiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MafiaViewController.h; sourceTree = "<group>"; };
+		9CA64F8A1B0AA97A00812F6F /* MafiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MafiaViewController.m; sourceTree = "<group>"; };
+		9CA64F8C1B0AA98800812F6F /* SheriffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheriffViewController.h; sourceTree = "<group>"; };
+		9CA64F8D1B0AA98800812F6F /* SheriffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheriffViewController.m; sourceTree = "<group>"; };
+		9CA64F8F1B0ACCCC00812F6F /* PlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGameViewController.h; sourceTree = "<group>"; };
+		9CA64F901B0ACCCC00812F6F /* PlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +100,17 @@
 				9CA64F5C1B0A9B1900812F6F /* AppDelegate.m */,
 				9CA64F5E1B0A9B1900812F6F /* ViewController.h */,
 				9CA64F5F1B0A9B1900812F6F /* ViewController.m */,
+				9CA64F891B0AA97A00812F6F /* MafiaViewController.h */,
+				9CA64F8A1B0AA97A00812F6F /* MafiaViewController.m */,
+				9CA64F8C1B0AA98800812F6F /* SheriffViewController.h */,
+				9CA64F8D1B0AA98800812F6F /* SheriffViewController.m */,
+				9CA64F8F1B0ACCCC00812F6F /* PlayGameViewController.h */,
+				9CA64F901B0ACCCC00812F6F /* PlayGameViewController.m */,
 				9CA64F611B0A9B1900812F6F /* Main.storyboard */,
+				9CA64F861B0AA3A800812F6F /* Game.h */,
+				9CA64F871B0AA3A800812F6F /* Game.m */,
+				9CA64F7D1B0AA1FF00812F6F /* Player.h */,
+				9CA64F7E1B0AA1FF00812F6F /* Player.m */,
 				9CA64F641B0A9B1900812F6F /* Images.xcassets */,
 				9CA64F661B0A9B1900812F6F /* LaunchScreen.xib */,
 				9CA64F571B0A9B1900812F6F /* Supporting Files */,
@@ -219,9 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA64F7F1B0AA1FF00812F6F /* Player.m in Sources */,
 				9CA64F601B0A9B1900812F6F /* ViewController.m in Sources */,
+				9CA64F911B0ACCCC00812F6F /* PlayGameViewController.m in Sources */,
+				9CA64F8E1B0AA98800812F6F /* SheriffViewController.m in Sources */,
 				9CA64F5D1B0A9B1900812F6F /* AppDelegate.m in Sources */,
 				9CA64F5A1B0A9B1900812F6F /* main.m in Sources */,
+				9CA64F8B1B0AA97A00812F6F /* MafiaViewController.m in Sources */,
+				9CA64F881B0AA3A800812F6F /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
